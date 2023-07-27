@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".SplashScreen"
+    android:background="#2C95CD">
+
+    <ImageView
+        android:id="@+id/hashSymbol"
+        android:layout_marginTop="-620dp"
+        android:layout_marginBottom="400dp"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:contentDescription="@string/todo"
+        app:srcCompat="@drawable/baseline_grid_3x3_24"/>
+
+    <TextView
+        android:id="@+id/textTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tic_tac_toe"
+        android:textColor="#FF0000"
+        android:textStyle="bold"
+        android:textSize="80sp"
+        android:fontFamily="cursive"/>
+
+</LinearLayout>
